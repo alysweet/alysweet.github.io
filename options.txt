@@ -1,0 +1,7 @@
+https://bulmatemplates.github.io/bulma-templates/templates/showcase.html
+
+https://bulmatemplates.github.io/bulma-templates/templates/band.html
+
+https://bulmatemplates.github.io/bulma-templates/templates/hello-parallax.html
+
+https://bulmatemplates.github.io/bulma-templates/templates/landing.html
