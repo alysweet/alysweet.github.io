@@ -322,7 +322,8 @@ html {
   cursor: pointer;
   border-radius: 50%;
   font-size: 2rem;
-  box-shadow: 0 5px 20px rgba(86, 131, 131, 0.3);
+  text-align: center;
+  border: 1px solid #C7D6D6;
 }
 
 #toTop a {
