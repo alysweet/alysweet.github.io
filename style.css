@@ -31,6 +31,16 @@ html {
   background-position-x: center;
 }
 
+@supports (-webkit-text-size-adjust:none) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)) {
+  /*
+    Define here the CSS styles applied only to the Safari 9 version when
+    running in iOS devices (iPhone, iPad, ...)
+   */
+   .hero {
+     background-attachment: scroll;
+   }
+}
+
 .hero .title {
   font-family: 'Kaushan Script', sans-serif;
   transform: rotate(-5deg);
@@ -55,20 +65,7 @@ html {
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
 }
 
-@media (max-width: 768px) {
-  .hero {
-    background-position-y: -100px;
-  }
-}
-
 @media (max-width: 599px) {
-  .hero {
-    background-image: url("/ice-cream--mobile.jpg");
-    background: linear-gradient(rgba(80, 80, 80, 0.65), rgba(80, 80, 80, 0.65)), rgba(0, 0, 0, 0.55) url("/ice-cream--mobile.jpg") no-repeat;
-    background-position-x: center;
-    background-size: cover;
-  }
-
   .hero .hero-foot {
     display: none;
   }
