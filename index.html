@@ -434,7 +434,7 @@
 
     <!-- Begin Footer -->
     <div class="footer">
-      <p>Copyright 2020 &mdash; All rights reserved</p>
+      <p>Copyright <span id="copyright-year">2021</span> &mdash; All rights reserved</p>
     </div>
     <!-- End Footer -->
 
@@ -443,6 +443,9 @@
     <script src="/showcase.js"></script>
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      document.querySelector('#copyright-year').innerHTML = new Date().getFullYear();
+    </script>
     <script>
       AOS.init({
         easing: "ease-out",
