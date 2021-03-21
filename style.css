@@ -124,8 +124,8 @@ html {
 }
 
 .main-content .section-dark.resume {
-  height: 400px;
-  padding-top: 100px;
+  /* height: 400px;
+  padding-top: 100px; */
 }
 
 @media (max-width: 599px) {
@@ -255,6 +255,14 @@ html {
   padding: 100px;
   background-color: #568383;
   color: white;
+}
+
+.main-content .section-color a {
+  color: white;
+}
+
+.main-content .section-color a:hover {
+  color: #363636;
 }
 
 @media (max-width: 599px) {
