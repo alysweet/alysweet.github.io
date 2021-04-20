@@ -138,14 +138,18 @@ html {
   padding: 20px;
 }
 
-.main-content .section-dark.resume button {
+.main-content .section-dark.resume .button {
   border: 2px solid #568383;
   background: white;
   color: #568383;
   height: 50px;
-  width: 250px;
+  min-width: 250px;
   font-size: 1rem;
   text-transform: uppercase;
+}
+
+.main-content .section-dark.resume .button:hover {
+  font-weight: bold;
 }
 
 .main-content .section-dark.resume .fa-download {
