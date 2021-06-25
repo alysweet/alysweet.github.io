@@ -123,22 +123,17 @@ html {
   color: inherit;
 }
 
-.main-content .section-dark.resume {
-  /* height: 400px;
-  padding-top: 100px; */
-}
-
 @media (max-width: 599px) {
-  .main-content .section-dark.resume {
+  .main-content .section-dark {
     padding: 80px 30px;
   }
 }
 
-.main-content .section-dark.resume .title {
+.main-content .section-dark .title {
   padding: 20px;
 }
 
-.main-content .section-dark.resume .button {
+.main-content .section-dark .button {
   border: 2px solid #568383;
   background: white;
   color: #568383;
@@ -148,25 +143,25 @@ html {
   text-transform: uppercase;
 }
 
-.main-content .section-dark.resume .button:hover {
+.main-content .section-dark .button:hover {
   font-weight: bold;
 }
 
-.main-content .section-dark.resume .fa-download {
+.main-content .section-dark .fa-download {
   color: #1d5a59;
 }
 
-.main-content .section-dark.my-work {
-  padding: 120px;
+.main-content .gallery {
+  padding: 20px 120px 20px 120px;
 }
 
 @media (max-width: 599px) {
-  .main-content .section-dark.my-work {
-    padding: 75px 20px;
+  .main-content .gallery {
+    padding: 20px;
   }
 }
 
-.main-content .section-dark.my-work .work-item {
+.main-content .gallery .gallery-item-thumbnail {
   margin-bottom: 1rem;
   -webkit-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;
@@ -176,7 +171,7 @@ html {
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
 }
 
-.main-content .section-dark.my-work .work-item:hover {
+.main-content .gallery .gallery-item-thumbnail:hover {
   -webkit-transform: scale(1.055) translateY(-2px);
   transform: scale(1.055) translateY(-2px);
   -webkit-box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
@@ -239,7 +234,7 @@ html {
   padding: 200px;
 }
 
-.main-content .section-light.contact button {
+.main-content .section-light button {
   width: 100%;
   background-color: #568383;
   color: white;
@@ -255,7 +250,7 @@ html {
   }
 }
 
-.main-content .section-color.services {
+.main-content .section-color {
   padding: 100px;
   background-color: #568383;
   color: white;
@@ -270,17 +265,17 @@ html {
 }
 
 @media (max-width: 599px) {
-  .main-content .section-color.services {
+  .main-content .section-color {
     padding: 80px 30px;
   }
 }
 
-.main-content .section-color.services .title,
-.main-content .section-color.services .subtitle {
+.main-content .section-color .title,
+.main-content .section-color .subtitle {
   color: white;
 }
 
-.main-content .section-color.services i {
+.main-content .section-color i {
   font-size: 3rem;
   padding: 20px;
 }
