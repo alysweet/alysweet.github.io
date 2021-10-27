@@ -16,6 +16,10 @@ html {
   min-height: 100%;
 }
 
+a {
+  text-decoration: underline;
+}
+
 .header-wrapper {
   padding-bottom: 30px;
 }
@@ -96,6 +100,7 @@ html {
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
   color: #1d5a59;
+  text-decoration: none;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
@@ -141,6 +146,7 @@ html {
   min-width: 250px;
   font-size: 1rem;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .main-content .section-dark .button:hover {
